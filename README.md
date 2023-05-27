@@ -1,41 +1,40 @@
-# Automation-hunting-Dork-Search
-use the scraping method for google search
-if you like to get a better redundancy use it and editing here !
-## Requirements
-Install Webpage2html 
+# Automação-caça-Dork-Search
+use o método de raspagem para pesquisa no google
+se você deseja obter uma redundância melhor, use.
+
+## Requisitos
+
+Instalar Webpage2html
+
 ```bash
 git clone https://github.com/zTrix/webpage2html.git
 cd Webpage2html
-pip install -r requirements.txt
+pip install -r requisitos.txt
 
 #Test webpage2html
 python webpage2html.py https://www.google.com > google.html
 ```
 
-Install requirements
+Requisitos de instalação
 ```bash
 cd ..
-pip install -r requirements.txt
+pip install -r requisitos.txt
 ```
-## Flow Diagram
-1.google search complate
+## Diagrama de fluxo
+1.compilação de pesquisa do google
 ```bash
 python3 dork4me.py (--help/-h)
-python3 dork4me.py (2 mode - onliner / in application)
+python3 dork4me.py (modo 2 - onliner / no aplicativo)
 ```
-2.export links to csv file
+2.exportar links para arquivo csv
 
-save file to links.txt
+salvar arquivo em links.txt
 
-3.set tor service for search
+3.set tor service para pesquisa
 
-in dork4me.py =>change proxy
+em dork4me.py =>alterar proxy
 
-4.save all links to html
+4. salve todos os links em html
 ```bash
 bash save.sh
 ```
-
-## Problems
-1.Get error "429 to many request"
-# SearchDK
