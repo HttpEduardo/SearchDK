@@ -1,4 +1,4 @@
-# Automação-caça-Dork-Search
+# SearchDK
 use o método de raspagem para pesquisa no google
 se você deseja obter uma redundância melhor, use.
 
@@ -38,3 +38,4 @@ em dork4me.py =>alterar proxy
 ```bash
 bash save.sh
 ```
+Isso é apenas a fim de estudo.
